@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+
+    .content {
+        height: 500px;
+    }
+
+    .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+    }
+
+    footer {
+        background-color: #555;
+        color: white;
+        padding: 25px;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .content {height: auto;} 
+    }
+</style>
+
+<body>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <div class="icon-bar"></div>
+                    <div class="icon-bar"></div>
+                    <div class="icon-bar"></div>
+                </button>
+                <div class="navbar-brand">Logo</div>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <p><a href="#">Link1</a></p>
+                <p><a href="#">Link2</a></p>
+                <p><a href="#">Link3</a></p>
+                <p><a href="#">Link4</a></p>
+            </div>
+            <div class="col-sm-8">
+                <h1>Welcome</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda dignissimos asperiores quis eum, labore necessitatibus culpa. Commodi libero fugit beatae impedit dolore vero voluptatibus doloribus odio incidunt iure illum error delectus, consectetur assumenda, nostrum porro doloremque recusandae. Rerum impedit tenetur iste praesentium consequuntur expedita sed quo, doloribus itaque consectetur?</p>
+                <hr>
+                <h3>Text</h3>
+                <p>Lorem Ipsem</p>
+            </div>
+            <div class="col-sm-2 sidenav">
+                <div class="well">ADS</div>
+                <div class="well">ADS</div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p>Footer Content</p>
+    </footer>
+</body>
+
+</html>
